@@ -108,7 +108,7 @@ S5,
 	0.01": ON^COMEDERO; OFF^LG ---> S6
 S6,
 	2": OFF^COMEDERO;
-        SET Z(E-1)=T+.4 ---> S2
+        SET Z(E-1)=T+.4 ---> S7
 
 \ Registramos todas las posibles respuestas en teclas
 S7,
