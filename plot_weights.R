@@ -12,7 +12,7 @@ for(r in 1:nrow(bw)){
   if(bw$Bird[r]%in%c('P051','P510','P054','P530',
                      'P056','P736','P004','P138')){
     col <- 'red'
-    text(length(days_labs),bw[r,ncol(bw)],bw$Bird[r],col=col,adj=0,cex=.7)
+    text(length(days_labs),bw[r,ncol(bw)],bw$Bird[r],col=col,adj=0,cex=.5)
     points(length(days_labs),bw[r,ncol(bw)],pch=16,col=col)
     
   }
