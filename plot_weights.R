@@ -9,8 +9,8 @@ plot(NULL,type='n',xlim=c(1,length(days_labs)*1.1),ylim=c(0,700),
      axes=F,ann=F)
 for(r in 1:nrow(bw)){
   col <- 'black'
-  if(bw$Bird[r]%in%c('P051','P510','P054','P530',
-                     'P056','P736','P004','P138')){
+  if(bw$Bird[r]%in%c('P510','P054','P530',
+                     'P736','P004','P138')){
     col <- 'red'
     text(length(days_labs),bw[r,ncol(bw)],bw$Bird[r],col=col,adj=0,cex=.5)
     points(length(days_labs),bw[r,ncol(bw)],pch=16,col=col)
